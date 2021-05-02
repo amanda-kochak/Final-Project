@@ -3,7 +3,7 @@
     <link href="https://fonts.googleapis.com/css?family=Tangerine" rel="stylesheet" type="text/css">
     <style>
       body {
-        font-family: 'Tangerine', serif;
+        font-family: 'Tangerine';
         font-size: 48px;
       }
     </style>
