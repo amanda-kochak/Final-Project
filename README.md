@@ -1,7 +1,7 @@
 <html>
   <head>
     <link rel="stylesheet"
-          href="https://fonts.googleapis.com/css?family=Montserrat">
+          href="https://fonts.googleapis.com/css?family=Tangerine">
     <style>
       body {
         font-family: 'Tangerine', serif;
