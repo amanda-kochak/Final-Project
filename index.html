@@ -95,7 +95,16 @@ h1, h2, h3, h4, h5, h6 {
       <p style="text-align:center;"> Click a flare to zoom into the group.  Click the center of the circle to expand back out. </p>
     </div> 
     
-    
+    <div id="observablehq-chart-8603b259"></div>
+
+      <script type="module">
+      import {Runtime, Inspector} from "https://cdn.jsdelivr.net/npm/@observablehq/runtime@4/dist/runtime.js";
+      import define from "https://api.observablehq.com/d/d5467115881d5acf.js?v=3";
+      new Runtime().module(define, name => {
+       if (name === "chart") return new Inspector(document.querySelector("#observablehq-chart-8603b259"));
+      });
+      </script>
+   </div>
   </div>
 
   <hr>
