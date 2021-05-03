@@ -47,8 +47,18 @@ h1, h2, h3, h4, h5, h6 {
 
   <div class="w3-display-container w3-content w3-wide" style="max-width:1600px;min-width:500px">
     <h1 class="w3-center">Nationally, 8 in 10 Minority owned businesses report poor financial condition due to the pandemic</h1><br> 
-    <iframe width="1600" height="800" frameborder="0"
-    src="https://observablehq.com/embed/@amandakochak/building-an-svg-grid-with-d3?cells=chart"></iframe>
+  </div>  
+    
+  <div id="observablehq-chart-b5d1373c"></div>
+  <script type="module">
+  import {Runtime, Inspector} from "https://cdn.jsdelivr.net/npm/@observablehq/runtime@4/dist/runtime.js";
+  import define from "https://api.observablehq.com/@amandakochak/building-an-svg-grid-with-d3/2.js?v=3";
+  new Runtime().module(define, name => {
+      if (name === "chart") return new Inspector(document.querySelector("#observablehq-chart-b5d1373c"));
+  });
+  </script>
+    
+    
    </div>
     
   <!-- About Section -->
