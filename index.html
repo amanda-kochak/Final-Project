@@ -131,16 +131,14 @@ h1, h2, h3, h4, h5, h6 {
   
   
   
-<div id="observablehq-chart-f915ac49"></div>
-<div id="observablehq-tooltip-f915ac49"></div>
+<div id="observablehq-chart-9922ea34" style="max-width:800px;min-width:500px"></div>
 
 
 <script type="module">
 import {Runtime, Inspector} from "https://cdn.jsdelivr.net/npm/@observablehq/runtime@4/dist/runtime.js";
 import define from "https://api.observablehq.com/@amandakochak/updated-chord-diagram.js?v=3";
 new Runtime().module(define, name => {
-  if (name === "chart") return new Inspector(document.querySelector("#observablehq-chart-f915ac49"));
-  if (name === "tooltip") return new Inspector(document.querySelector("#observablehq-tooltip-f915ac49"));
+  if (name === "chart") return new Inspector(document.querySelector("#observablehq-chart-9922ea34"));
 });
 </script>
   
