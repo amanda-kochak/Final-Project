@@ -89,6 +89,31 @@ h1, h2, h3, h4, h5, h6 {
   <hr>
   
   <!-- Results Section -->
+  
+  <div id="observablehq-chart-9922ea34" style="max-width:800px;min-width:500px"></div>
+
+
+<script type="module">
+import {Runtime, Inspector} from "https://cdn.jsdelivr.net/npm/@observablehq/runtime@4/dist/runtime.js";
+import define from "https://api.observablehq.com/@amandakochak/updated-chord-diagram.js?v=3";
+new Runtime().module(define, name => {
+  if (name === "chart") return new Inspector(document.querySelector("#observablehq-chart-9922ea34"));
+});
+</script>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
   <div class="w3-row w3-padding-64" id="results">
     <div class="w3-display-container w3-content w3-wide" style="max-width:1600px;min-width:500px">
       <h1 class="w3-center">How was the outreach distributed among racial groups?</h1><br>
@@ -131,17 +156,7 @@ h1, h2, h3, h4, h5, h6 {
   
   
   
-<div id="observablehq-chart-9922ea34" style="max-width:800px;min-width:500px"></div>
 
-
-<script type="module">
-import {Runtime, Inspector} from "https://cdn.jsdelivr.net/npm/@observablehq/runtime@4/dist/runtime.js";
-import define from "https://api.observablehq.com/@amandakochak/updated-chord-diagram.js?v=3";
-new Runtime().module(define, name => {
-  if (name === "chart") return new Inspector(document.querySelector("#observablehq-chart-9922ea34"));
-});
-</script>
-  
   
   
   
